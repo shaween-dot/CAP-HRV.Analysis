@@ -21,10 +21,17 @@ This framework provides:
 -Automated CAP-aligned HRV analysis
 -Reproducible, modular, open MATLAB code suitable for research use
 
-Intended Use
+Usage
+1. Load preprocessed EEG and ECG epochs.
+2. Run CAP detection scripts to identify CAP and non-CAP segments.
+3. Apply HRV extraction scripts to aligned ECG epochs.
+4. (Optional) Run validation scripts for benchmarking against PhysioZoo GUI.
 
-This code is intended for:
--Sleep physiology research
--Methodological development
--Multimodal EEG–ECG analysis
--Reproducible feature extraction pipelines
+Requirements
+- MATLAB R2020b or later
+- Signal Processing Toolbox
+
+License
+This code is released for academic and research use.
+
+The repository includes code only.
